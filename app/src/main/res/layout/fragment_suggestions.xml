@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginTop="45dp"
+    android:layout_height="match_parent"
+    tools:context="com.gitbelgaum.umar.gitlibrary.Suggestions">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/suggestion_text"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/submit_sug"
+        android:layout_toLeftOf="@+id/submit_sug"
+        android:hint="Type your suggestion here" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textColor="#ffffff"
+        android:id="@+id/submit_sug"
+        android:layout_alignBottom="@+id/suggestion_text"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#4b5cb9" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/suggestion_list"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/suggestion_text" />
+</RelativeLayout>

@@ -1,0 +1,176 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="45dp"
+    tools:context="ccom.gitbelgaum.umar.gitlibrary.Main_frag">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"
+        android:textSize="21dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="WELCOME TO LIBRARY &amp; INFO APP"
+        android:id="@+id/textView32"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#01645a"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="library &amp; info center has a collection of over 93000+ Volumes and 23000+ titles that supplement the teaching, research and development of Institution. The demands of the ever-growing research areas multiple disciplines is being catered with the help of latest volumes, in almost all fields Engineering, Science, Technology, Management and general areas."
+        android:id="@+id/textView33"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/textView32"
+        android:textStyle="italic"
+        android:layout_centerHorizontal="true"
+        android:textColor="#093301" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="This app will help you to access your library account in one touch and it also provides features like:"
+        android:id="@+id/textView34"
+        android:layout_below="@+id/textView33"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#01012e"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Real-time Notifications"
+        android:id="@+id/textView35"
+        android:layout_marginTop="5dp"
+        android:textStyle="italic"
+        android:layout_below="@+id/textView34"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#01012e"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Book renew/return reminder Notification"
+        android:id="@+id/textView36"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/textView35"
+        android:textStyle="italic"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#01012e"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Book search"
+        android:layout_marginTop="5dp"
+        android:id="@+id/textView37"
+        android:textStyle="italic"
+        android:layout_below="@+id/textView36"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#01012e"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Book renew"
+        android:id="@+id/textView38"
+        android:layout_marginTop="5dp"
+        android:textStyle="italic"
+        android:layout_below="@+id/textView37"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#01012e"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Book location"
+        android:layout_marginTop="5dp"
+        android:id="@+id/textView39"
+        android:textStyle="italic"
+        android:layout_below="@+id/textView38"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#01012e"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="etc......."
+        android:id="@+id/textView40"
+        android:layout_marginTop="5dp"
+        android:textStyle="italic"
+        android:layout_below="@+id/textView39"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#01012e" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Library contact:-"
+        android:layout_marginTop="15dp"
+        android:id="@+id/textView41"
+        android:layout_below="@+id/textView40"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#014d45"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Ph: 0831 – 2498515"
+        android:id="@+id/textView42"
+        android:layout_below="@+id/textView41"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#012180"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Email id: Librarian@git.edu"
+        android:id="@+id/textView43"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/textView42"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#012180"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="website: library.git.edu"
+        android:id="@+id/textView44"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/textView43"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#012180"/>
+</RelativeLayout>
+</RelativeLayout>

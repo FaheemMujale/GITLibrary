@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="2dp"
+    android:paddingRight="4dp"
+    android:paddingLeft="2dp"
+    android:paddingBottom="10dp"
+    android:background="@drawable/viewshape">
+
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/history_cover_img"
+        android:layout_above="@+id/return_date2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Title:  "
+        android:id="@+id/textView2"
+        android:textStyle="bold"
+        android:textColor="#FF000000"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/history_cover_img"
+        android:layout_toEndOf="@+id/history_cover_img" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:paddingTop="20dp"
+        android:textStyle="bold"
+        android:id="@+id/book_title1"
+        android:textColor="#271b42"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_toRightOf="@+id/textView2"
+        android:layout_toEndOf="@+id/textView2"
+        android:maxHeight="70dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Author:  "
+        android:textColor="#FF000000"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/book_title1"
+        android:layout_toRightOf="@+id/history_cover_img"
+        android:layout_toEndOf="@+id/history_cover_img" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#014b4b"
+        android:id="@+id/author2"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_toRightOf="@+id/textView3"
+        android:layout_toEndOf="@+id/textView3"
+        android:maxLines="2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:paddingTop="5dp"
+        android:text="Issue Date:  "
+        android:id="@+id/textView7"
+        android:textColor="#FF000000"
+        android:layout_below="@+id/author2"
+        android:layout_toRightOf="@+id/history_cover_img"
+        android:layout_toEndOf="@+id/history_cover_img" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/issue_date2"
+        android:paddingTop="5dp"
+        android:textColor="#FF000000"
+        android:layout_below="@+id/author2"
+        android:layout_toRightOf="@+id/textView7"
+        android:layout_toEndOf="@+id/textView7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Return Date:  "
+        android:textColor="#FF000000"
+        android:paddingTop="5dp"
+        android:id="@+id/textView8"
+        android:layout_below="@+id/textView7"
+        android:layout_toRightOf="@+id/history_cover_img"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/return_date2"
+        android:textColor="#FF000000"
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_toRightOf="@+id/textView8"
+        android:layout_toEndOf="@+id/textView8" />
+
+</RelativeLayout>

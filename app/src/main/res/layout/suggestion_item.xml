@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/user_name_sugg"
+        android:paddingLeft="5dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/sugg_image"
+        android:layout_toRightOf="@+id/sugg_image"
+        android:layout_toEndOf="@+id/sugg_image" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/suggestion_text"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:layout_below="@+id/user_name_sugg"
+        android:layout_toRightOf="@+id/sugg_image"
+        android:layout_toEndOf="@+id/sugg_image" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/suggestion_date"
+        android:textSize="12dp"
+        android:layout_below="@+id/suggestion_text"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="false"
+        android:textColor="#36274a" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/sugg_image"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+</RelativeLayout>
